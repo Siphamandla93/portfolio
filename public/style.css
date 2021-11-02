@@ -1,0 +1,212 @@
+#headerNav{ 
+  font-weight: bolder;
+  font-size: 3rem;
+  color: #040F19;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-bottom: 1px ridge;
+
+ 
+
+}
+#text{
+  font-size: 1.5rem;
+  
+  
+}
+#bit_about_me{
+  margin-top: 12rem;
+}
+.dot{
+  border-radius: 50%;
+}
+
+img{
+  border-radius: 50%;
+  height: 20rem;
+  width: 20rem;
+  margin-top: 10rem;
+  margin-left: 8rem;
+}
+#headTittle{
+
+  margin-top: 7rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: monospace;
+  display: flex;
+  padding-right: 10rem;
+  margin-left: 1.5rem;
+  color: black;
+}
+#grouping{
+
+  margin-top: 15rem;
+}
+
+#grouping, #grouping2, #grouping3, #grouping1{
+  display: flex;
+  color: black;
+  margin-bottom: 2rem;
+}
+/* #inboxMe{
+  display: flex;
+  grid-gap: 16px;
+
+} */
+#description{
+  margin-bottom: 2rem;
+}
+#jobDescription1{
+  margin-left: 43rem;
+}
+
+
+#jobHeading1, #jobHeading2{
+  padding-left: 2rem;
+  font-size: 17px;
+  font-weight: bolder;
+}
+
+#workExpHeader{
+
+  font-size: 1.5rem;
+  margin-top: 4rem;
+  color: black;
+}
+#resumeHeader{
+  margin-top: 5rem;
+  font-weight: bolder;
+  font-family: monospace;
+  font-size: 2rem;
+  color: black;
+  padding-left: 5rem;
+
+}
+#phone, #email{
+  font-weight: bold;
+  font-size: 2rem;
+}
+#fill_in_form{
+  margin-top: 10rem;
+  text-align: center;
+  align-items: center;
+  color: black;
+  border-color: black;
+  margin-bottom: 5rem;
+}
+
+
+
+#formHeading, #projects_header, #inbox{
+  margin-top: 10rem;
+  padding-left: 8rem;
+  color: black;
+}
+
+#contact_heading, #projects_header, #inbox{
+  font-weight: bolder;
+  color: black;
+  font-size: 3rem;
+ 
+}
+#tittle{
+
+  margin-top: 7rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: monospace;
+  display: flex;
+  padding-right: 10rem;
+  margin-left: 1.5rem;
+  color: black;
+  
+
+}
+#re_route{
+  margin-left: 20rem;
+}
+
+h1{
+  font-family: monospace;
+  font-size: 4rem;
+  font-weight: bolder;
+  color: black;
+}
+h3{
+  font-family: monospace;
+  font-weight: bold;
+  color: black;
+}
+
+.cicle{
+  height: 35px;
+  width: 35px;
+  background-color:#BC6A0A;
+  border-radius: 50%;
+  
+}
+.cicle1{
+  height: 100px;
+  width: 100px;
+  background-color:#BC6A0A;
+  border-radius: 50%;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 17px;
+}
+.cicle2{
+  height: 100px;
+  width: 100px;
+  background-color:#C60E0E;
+  border-radius: 50%;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 17px;
+}
+
+.cicle3{
+  height: 100px;
+  width: 100px;
+  background-color:#06DBF1;
+  border-radius: 50%;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 17px;
+  margin-right: 5px;
+  
+}
+.editor_text{
+
+  font-weight:normal;
+  margin-left: 4px;
+  font-size: 20px;
+}
+.me{
+  margin-left: 1rem;
+}
+#welcome_note{
+  margin-bottom: 4rem;
+}
+
+#foots{
+  border-top: 1px ridge;
+  color: lightgrey;
+  padding-top: 4rem;
+  color: black;
+  font-weight: bold;
+}
+/* #last_section{
+  
+} */

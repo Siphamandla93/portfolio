@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-sm-6" id="inbox">
+
+                <p>View Inbox</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+        
+        <div class="card-body" style="color: black; display:flex; grid-gap:2px;"> 
+            {{#each inbox}}
+                <li class="list-group-item" id="items">
+                    <h5>{{this.name}}</h5>
+                    <h4>{{this.surname}}</h5>
+                    <p>{{this.subject}}</p>
+                    <p>{{this.email}}</p>
+                    <p>{{this.message}}</p>
+                </li>
+            {{/each}}
+        </div>
+
+    </div>
+    </div>
+</div>
+
+
+
+
+      
+ 
+     
