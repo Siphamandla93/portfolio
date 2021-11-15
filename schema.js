@@ -14,4 +14,5 @@ const clientSchema = new Schema({
 
 let collection = mongoose.model('clients', clientSchema);
 
+
 module.exports = collection;
