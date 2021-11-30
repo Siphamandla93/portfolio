@@ -1,0 +1,39 @@
+<div class="container"> 
+    <div class="row"> 
+        <div class="col-12 col-sm-6" id="formHeading"> 
+            <p id="contact_heading">Auth verification</p>
+            <p>This page allow's admin to log in</p>
+            <p id="phone">Note</p>
+            <p>Non admin user's access is prohibited</p>
+           
+        </div>
+
+                {{#if messages.error}}
+                <div class="text danger text-center">
+                {{messages.error}}
+                </div>
+                {{/if}}
+
+        <div class="col-12 col-sm-6" id="fill_in_form"> 
+
+        <form action="signin" method="POST">
+
+          <div class="pass">
+          <input type="email" class="form-control" name="email"
+          placeholder="Enter your email" id="exampleInputPassword1" style="font-family:'Times New Roman', Times, serif; text-align: center; border-color:black; margin-top:10px;">
+          </div>
+
+          <input type="text" class="form-control" name="username"
+          placeholder="Enter your password" id="exampleInputEmail1" style="font-family:'Times New Roman', Times, serif; text-align: center; border-color:black; margin-top:10px;">
+
+
+           <div class="submitBtn" style="text-align: center; margin-top: 1rem; font-family: Georgia, 'Times New Roman', Times, serif;
+              font-size: 10px;">
+            <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+
+        </form>
+
+               
+    </div>
+</div>

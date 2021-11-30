@@ -9,10 +9,8 @@ const clientSchema = new Schema({
     subject: String,
     message: String
 
-
 });
 
 let collection = mongoose.model('clients', clientSchema);
-
 
 module.exports = collection;

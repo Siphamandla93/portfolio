@@ -2,7 +2,12 @@ const express = require('express');
 const router = express.Router();
 const mongoose = require('mongoose');
 const collection = require('./schema')
+const securityDB = require('./security')
 const flash = require('express-flash')
+const jwt = require('jsonwebtoken');
+
+
+router.use(flash());
 
 
 router.get('/', (req,res) =>{
@@ -25,6 +30,10 @@ router.get('/Contact', (req,res)=>{
 
 router.get('/View', (req,res)=>{
     res.render('database')
+})
+
+router.get('/Logins', (req,res)=>{
+    res.render('logins')
 })
 
 router.post('/Form', (req,res) => {
@@ -54,9 +63,12 @@ router.post('/Form', (req,res) => {
             error: err
         })
     })
-})
+});
 
-router.get('/Inbox', (req,res) => {
+
+
+
+router.get('/Inbox',(req,res) => {
 
     const results = collection.find().lean()
     .exec()
